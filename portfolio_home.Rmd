@@ -1,0 +1,207 @@
+---
+title: "Portfolio Home"
+author: "Billy Houseman"
+output:
+  rmdformats::material
+---
+<style>
+a {
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    color: #9F2042;
+}
+</style>
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+# Loading libraries
+library(prettydoc)
+```
+
+
+
+# Portfolio
+This Giuthub page currently acts as a home to my portfolio. Within this portfolio I demonstrate individual projects, projects completed through university and any awards or learning certificates I have obtained. These are all accessed using the provided links.
+
+Within this portfolio I display projects which typically combine my interest in data analysis and video games. Pleas explore the different sections to discover these projects
+
+
+
+
+
+# My Projects {.tabset}
+The purpose of these projects are to demonstrate both my data analysis skills within the R programming language and my communication skills of the analysis carried out.
+
+
+## Cluster Analysis on League of Legends Champions
+
+Please follow the link below to the project:
+
+[Project 1: Cluster Analysis on League of Legends Champions](https://702bh.github.io/Cluster-Analysis-League-of-Legends-Champions/)
+
+__Project overview:__
+League of Legends is a multiplayer online battle arena game developed by Riot Games where two teams fight one another to obtain a victory. Within the game there are over 150 playable characters, each grouped into 1 of 7 classes (Classes are groups of characters with similar playstyles). The overall goal of this project was to use data about each character alongside K-Means clustering to correctly classify them into their corresponding classes. In doing so the current classification system can be validated and areas of improvement identified. The results are presented in the form of tables and visualisations. This projected was completed using R. 
+
+
+__Skills covered:__
+*Exploratory Data Analysis (EDA), Cleaning data,  JSON files, Webscraping, Joining data, Data Visualisation, Data manipulation and transformation, Clustering, Principal component analysis (PCA)* 
+
+
+## Cluster Analysis on League of Legends Champions - Interactive Dashboard
+
+Please follow the link below to the project:
+
+[Project 2: Cluster Analysis on League of Legends Champions Interactive Dashboard](https://bhouse1.shinyapps.io/clusterdashboard/?_ga=2.108696644.751371613.1653840482-556679007.1653840482)
+
+__Project overview:__
+Following on from my first project, I decided to create an interactive dashboard summarising the data and the results. I believe allowing users to interact with the data themselves allows them to develop their own conclusions whilst reinforcing the findings of the project. Additionally, it improves the users engagement with the project and thus increases the likelihood that they will actively think about the conclusions and the methods as they explore the data.
+
+Within this dashboard the user can  explore my own findings, additionally, the user is allowed  to create their own clusters and observe how the data is separated.
+
+__Skills covered:__
+*Interactive Data Visualisation, Data manipulation and transformation, Clustering, Rshiny, Dashboards)* 
+
+# University Projects {.tabset}
+
+Many of the projects below are in an academic format as they were completed as part of my Master's degree. As such the presentation of these projects are either in a summarised form, or a PDF of the submitted word document containing my code and my write up. These projects were included in order to demonstrate my understanding and capability of data analysis and data science techniques including Linear and Logistic regression, Web scraping, Data mining and text analysis. 
+
+
+Although I have not yet graduated from my Masters degree as it is being completed part-time, I have included a copy of [my currently obtained marks](https://github.com/702BH/Portfolio_Image/blob/main/Awards%20and%20Certificates/Gmail-Your-Module-Results.pdf), which I hope demonstrates my high level interest, but also my capability.
+
+<br>
+
+## Interactive Dashboard Using Rshiny
+
+Please follow the link below to the project:
+
+[Project 2: Interactive Dashboard Using Rshiny](https://a-28577868.shinyapps.io/mario_app/?_ga=2.166387068.379988980.1635258928-224771637.1635258928)
+
+__Project overview:__
+This project was completed as part of an assigned university module. Within the project Rshiny is used to create an interactive dashboard for the video game Mario Kart 8. Within the game there are 32 characters who can choose from over 40 vechicles and each vechicle can be enhanced with tyre modifications. The overal aim of this dashboard was to provide an interactive environment for players of the game to explore the characters, vehicles and how the modifications influence different variables within the game.
+
+__Skills covered:__
+*Rshiny, HTML, Data aggregation* 
+
+<br>
+
+## University Assignment - Data Visualisations
+
+Please follow the link to the code and summarised version of this project:
+
+[Project 3: Summary and code](https://github.com/702BH/University-Project-Data-Visualisations/blob/main/University_Project_Data_Visualisations.md)
+
+A PDF version with more detailed write up:
+[Project 3: Detailed PDF](https://github.com/702BH/University-Project-Data-Visualisations/blob/main/Data%20Visualisation%20Assignment.pdf)
+
+__Project overview:__
+This projected was completed as part of an assigned module. Within the project I take an untidy text format dataset and transform it into a format suitable for plotting. I then generated a variety of visulisations of the data and discuss and interpret the results.
+
+__Skills covered:__
+*Data visualisation, Data manipuilation and transformation* 
+
+<br>
+
+## University Assignment - Regression Modelling
+
+Please follow the link to the PDF write up:
+
+[Project 4: Regression Modelling](https://github.com/702BH/University-Project-Regression-Modelling/blob/main/Regression%20Modelling.pdf)
+
+__Project overview:__
+Within this report linear and logistic regression techniques are applied with the goal of estimating socioeconomic determinants of a child's nutritional status within the country of Tanzania. The report contains detailed explanations of the two methods and interpretations of the outputs of the techniques. The analysis was conducted within STATA.
+
+
+__Skills covered:__
+*STATA, Feature creation, Linear regression, Logistic regression, Model diagnostics*
+
+<br>
+
+## University Assignment - Data Science Foundations
+
+Please follow the link to the PDF write up:
+
+[Project 5: Data Science Foundations](https://github.com/702BH/University-Project-Data-Science-Foundations/blob/main/Data%20Science%20Foundations.pdf)
+
+__Project overview:__
+Within this report an exploratory data analysis is carried out on a provided survey dataset. This survey measured variables related to the respondents life satisfaction. From this exploration and interesting pattern was identified between the respondents ethnicity, highest level of qualification and life satisfaction.  Then linear regression is used to model one of the variables. This model is then used to predict the modeled variable.
+
+__Skills covered:__
+*Exploratory data analysis, Survey data analysis, best subset selection, model validation, k-fold cross-validation, model interpretation*
+
+
+
+# Awards and Learning Certificates  {.tabset}
+
+## Awards
+![](https://raw.githubusercontent.com/702BH/Portfolio_Image/main/Awards%20and%20Certificates/CFES.png)
+I was awarded the Centre for Environmental Science Prize for best Individual Project for my undergraduate dissertation.
+
+Within this project I used stepwise linear regression to model the drivers of deforestation within Kenya. Academic feedback from this dissertation focused on my ability to effectively and engagingly explore the story within the data. 
+
+
+## Learning Certificates {.tabset }
+Aswell as undertaking my Masters degree, I also sought continuend learning and continual professional development from a variety of independent learning sources. Across all the sources (outside of my degree) I have completed over 60 courses totaling more than 300 hours. I have chosen to include the key courses here.
+
+**Please click on the image to expand it.**
+
+### Datacamp {.tabset}
+
+#### Data Analyst with R career track
+![](https://raw.githubusercontent.com/702BH/Portfolio_Image/main/t.png)
+
+[The Data Analyst with R career track](https://www.datacamp.com/tracks/data-analyst-with-r) from data camp consists of 19 courses, totaling 77 hours. Within this course the following areas related to R and data analysis were covered. Additionally, an introduction to SQL queries and joining data in SQL were also explored. A list of the modules are as follows:
+
+- Exploratory Data Analysis in R
+- Categorical Data in the tidyverse
+- Cleaning Data in R
+- Data manipulation with data.table in R
+- Data Manipulation with dplyr
+- Intermediate Importing Data in R
+- Intermediate R
+- Introduction to data visualisation with ggplot2
+- Introduction to Importing Data in R
+- Introduction to R
+- Introduction to Relational Databases in SQL
+- Introduction to the Tidyverse
+- Joining Data with data.table in R
+- Joining Data with dplyr
+- Reporting with R Markdown
+- Introduction to SQL
+- Introduction to Relational Databases in SQL
+- Joining Data in SQL
+- A/B Testing in R
+
+
+
+#### SQL for Database Administrators
+![](https://raw.githubusercontent.com/702BH/Portfolio_Image/main/Awards%20and%20Certificates/Data%20Camp%20SQL%20for%20Database%20Administrators.png)
+
+The SQL for Database Administrators course taught key SQL skills focused around creating and managing databases with PostgreSQL. Introducing the concepts of database design and query optimisation within SQL.
+
+
+#### SQL Fundamentals 
+![](https://raw.githubusercontent.com/702BH/Portfolio_Image/main/Awards%20and%20Certificates/Data%20Camp%20SQL%20Fundamentals.png)
+
+This course focused on hands-on exercises for summarising, joining tables, and using window functions to analyse data within SQL. Additionally, feature creation using CASE WHEN statements, subqueries, and common table expressions. 
+
+
+### LinkedinLearning {.tabset}
+
+#### Intermediate SQL for Data Scientists
+![](https://raw.githubusercontent.com/702BH/Portfolio_Image/main/Awards%20and%20Certificates/CertificateOfCompletion_Intermediate%20SQL%20for%20Data%20Scientists.png)
+
+This course introduced me to Data Munging within SQL, with more advanced topics focusing on filtering character data using regular expressions. Additionally, my knowledge of window functions and common table expressions were re-informed. 
+
+
+#### Excel: Advanced Formulas and Functions
+![](https://raw.githubusercontent.com/702BH/Portfolio_Image/main/Awards%20and%20Certificates/Excel%20advanced%20formulas%20and%20functions.png)
+
+This intense 5 hour course covers a variety of advanced excel functions essential to data analysis including:
+
+- IF statements
+- Lookup functions
+- Data summary functions
+- Statistical functions
+- Working with Date and Time data in Excel
+- Text search functions
